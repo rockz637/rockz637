@@ -4,9 +4,9 @@ import java.util.Scanner;
 import java. lang. Math. *;
 
      class formulas {
-	
-	
-	
+
+
+
 	 static void capacitance () {
 		 Scanner s=new Scanner(System.in);
 		 System.out.println("is it in Series or Parallel");
@@ -28,12 +28,12 @@ import java. lang. Math. *;
 			 double C2=s.nextDouble();
 			 Double C=C1+C2;
 			 System.out.println(C1+"C and "+C2+"C in parallel = "+C+"C");
-			 
+
 		 }
 		}
-	 
+
 	static void resistance (){
-	
+
 		Scanner s=new Scanner(System.in);
 		 System.out.println("is it in Series or Parallel");
 		 System.out.println("1 - series ");
@@ -54,10 +54,10 @@ import java. lang. Math. *;
 			 double R2=s.nextDouble();
 			 Double R=(R1*R2)/R1+R2;
 			 System.out.println(R1+"R and "+R2+"R in parallel = "+R+"R");
-			 
+
 		 }
-		
-		
+
+
 	}
 	static void resonantFrequency() {
 		Scanner s=new Scanner(System.in);
@@ -70,7 +70,7 @@ import java. lang. Math. *;
 	}
 }
 	public class Gokul extends formulas {
-		
+
 	public static void main (String [] args) {
 		Scanner s=new Scanner(System.in);
 		System.out.println("what are you dealing with?");
@@ -86,15 +86,16 @@ import java. lang. Math. *;
 			break;
 		case 2:
 			capacitance();
-		case 3:		
+      break;
+		case 3:
 			resonantFrequency();
+      break;
 		default:
-			
+
 		}
 		System.out.println(" Have a GOOD DAY ");
-		
-		
-	}
-		
-	}	
 
+
+	}
+
+	}
