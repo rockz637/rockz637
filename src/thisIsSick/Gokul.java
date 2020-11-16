@@ -90,6 +90,7 @@ import java. lang. Math. *;
 		case 3:
 			resonantFrequency();
       break;
+      //changed the break
 		default:
 
 		}
